@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品介紹</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontswesome/fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="./css/introduce.css">
+    <link rel="icon" href="./ALLimages/logo-2.png">
+</head>
+
+<body class="position-relative">
+    <header class="fc">
+        <nav id="navigation" class="navbar navbar-expand-xl header-no col-12 position-fixed px-3">
+            <a href="./index.html" class="navbar-brand ms-3 fcc"><img src="./ALLimages/logo-2.png" alt="logo"
+                    width="64px" class="fds"><span class="fs-3 ms-3 text-dark ">藺草工坊</span></a>
+
+            <button type="button" class="navbar-toggler justify-content-center me-3" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbar">
+                <ul class="navbar-nav ms-auto gap-4">
+                    <li class="nav-item text-center"><a href="./index.html" class="nav-link text-dark">首頁<br>Home</a>
+                    </li>
+                    <li class="nav-item text-center"><a href="./about.html" class="nav-link text-dark">工坊故事<br>About</a>
+                    </li>
+                    <li class="nav-item text-center"><a href="./process.html"
+                            class="nav-link text-dark">製作流程<br>Process</a></li>
+                    <li class="nav-item text-center"><a href="./introduce.html"
+                            class="nav-link text-dark">商品介紹<br>Introduce</a>
+                    </li>
+                    <li class="nav-item text-center"><a href="./product.html"
+                            class="nav-link text-dark">購物專區<br>Product</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- product     -->
+    <section class="product" id="product">
+        <div class="row">
+            <div class="display-4 text-light mb-5 col-12 text-center Tshadow2 ">商品介紹 <span
+                    class="display-5 ff2 fst-italic">Introduce</span></div>
+        </div>
+        <div class="product_div col-11 justify-content-center" id="product_div">
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img1" data-bs-toggle="modal" data-bs-target="#pm_1"></div>
+                <h4 class="my-3">兩用水壺袋（大）</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">250</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(1)" id="heart1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(1)" id="share1"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('A','1')" id="starA1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('A','2')" id="starA2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('A','3')" id="starA3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('A','4')" id="starA4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('A','5')" id="starA5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(1)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_1">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img2" data-bs-toggle="modal" data-bs-target="#pm_2"></div>
+                <h4 class="my-3">兩用水壺袋（小）</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">200</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(2)" id="heart2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(2)" id="share2"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('B','1')" id="starB1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('B','2')" id="starB2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('B','3')" id="starB3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('B','4')" id="starB4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('B','5')" id="starB5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(2)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_2">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img3" data-bs-toggle="modal" data-bs-target="#pm_3"></div>
+                <h4 class="my-3">飲料提袋</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">150</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(3)" id="heart3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(3)" id="share3"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('C','1')" id="starC1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('C','2')" id="starC2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('C','3')" id="starC3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('C','4')" id="starC4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('C','5')" id="starC5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(3)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_3">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img4" data-bs-toggle="modal" data-bs-target="#pm_4"></div>
+                <h4 class="my-3">三角立方體</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">150</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(4)" id="heart4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(4)" id="share4"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('D','1')" id="starD1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('D','2')" id="starD2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('D','3')" id="starD3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('D','4')" id="starD4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('D','5')" id="starD5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(4)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_4">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img5" data-bs-toggle="modal" data-bs-target="#pm_5"></div>
+                <h4 class="my-3">吊飾-貓頭鷹</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">150</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(5)" id="heart5"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(5)" id="share5"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('E','1')" id="starE1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('E','2')" id="starE2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('E','3')" id="starE3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('E','4')" id="starE4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('E','5')" id="starE5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(5)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_5">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img6" data-bs-toggle="modal" data-bs-target="#pm_6"></div>
+                <h4 class="my-3">吊飾-魚</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">150</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(6)" id="heart6"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(6)" id="share6"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('F','1')" id="starF1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('F','2')" id="starF2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('F','3')" id="starF3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('F','4')" id="starF4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('F','5')" id="starF5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(6)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_6">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img7" data-bs-toggle="modal" data-bs-target="#pm_7"></div>
+                <h4 class="my-3">吊飾-台灣</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">150</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(7)" id="heart7"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(7)" id="share7"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('G','1')" id="starG1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('G','2')" id="starG2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('G','3')" id="starG3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('G','4')" id="starG4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('G','5')" id="starG5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(7)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_7">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img8" data-bs-toggle="modal" data-bs-target="#pm_8"></div>
+                <h4 class="my-3">耳機包</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">300</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(8)" id="heart8"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(8)" id="share8"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('H','1')" id="starH1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('H','2')" id="starH2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('H','3')" id="starH3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('H','4')" id="starH4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('H','5')" id="starH5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(8)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_8">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img9" data-bs-toggle="modal" data-bs-target="#pm_9"></div>
+                <h4 class="my-3">貝殼零錢包</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">300</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(9)" id="heart9"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(9)" id="share9"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('I','1')" id="starI1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('I','2')" id="starI2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('I','3')" id="starI3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('I','4')" id="starI4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('I','5')" id="starI5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(9)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_9">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img10" data-bs-toggle="modal" data-bs-target="#pm_10"></div>
+                <h4 class="my-3">編織書籤</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">150</span>　/個</p>
+                <div class="fcc justify-content-between">
+
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(10)" id="heart10"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(10)" id="share10"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('J','1')" id="starJ1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('J','2')" id="starJ2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('J','3')" id="starJ3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('J','4')" id="starJ4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('J','5')" id="starJ5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(10)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_10">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img11" data-bs-toggle="modal" data-bs-target="#pm_11"></div>
+                <h4 class="my-3">編織吊飾</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">100</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(11)" id="heart11"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(11)" id="share11"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('K','1')" id="starK1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('K','2')" id="starK2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('K','3')" id="starK3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('K','4')" id="starK4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('K','5')" id="starK5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(11)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_11">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img12" data-bs-toggle="modal" data-bs-target="#pm_12"></div>
+                <h4 class="my-3">悠遊卡套</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">300</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(12)" id="heart12"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(12)" id="share12"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('L','1')" id="starL1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('L','2')" id="starL2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('L','3')" id="starL3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('L','4')" id="starL4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('L','5')" id="starL5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(12)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_12">點擊查看更多</div>
+                </button>
+            </div>
+
+            <div class="Card" data-aos="fade-up" data-aos-duration="700">
+                <div class="card_img c_img13" data-bs-toggle="modal" data-bs-target="#pm_13"></div>
+                <h4 class="my-3">草鹿彩繪風鈴</h4>
+                <p>NT：<span class="ff2 fs-2 fst-italic">200</span>　/個</p>
+                <div class="fcc justify-content-between">
+                    <div class="d-flex gap-3">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-heart fs-4 text-danger"
+                                onclick="heart(13)" id="heart13"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-paper-plane fs-4 c-5d8da3"
+                                onclick="share(13)" id="share13"></i></a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('M','1')" id="starM1"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('M','2')" id="starM2"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('M','3')" id="starM3"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('M','4')" id="starM4"></i></a>
+                        <a href="#" onclick="return false"><i class="fa-regular fa-star c-ffce39"
+                                onclick="star('M','5')" id="starM5"></i></a>
+                    </div>
+                </div>
+                <button class="p_btn mt-2" onclick="addInCart(13)">
+                    <div data-bs-toggle="modal" data-bs-target="#pm_13">點擊查看更多</div>
+                </button>
+            </div>
+
+
+
+        </div>
+        </div>
+    </section>
+    <!------------------------- product-modal ------------------------->
+
+    <section class="p_modal">
+        <div class="modal fade" id="pm_1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./ALLimages/p1.jpg" alt="p1" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="pm_2">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p2.jpg" alt="p2" class="pm_img" height="1000px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_3">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p3.jpg" alt="p3" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_4">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p4.jpg" alt="p4" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_5">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p5.jpg" alt="p5" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_6">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p6.jpg" alt="p6" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_7">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p7.jpg" alt="p7" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_8">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p8.jpg" alt="p8" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_9">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p9.jpg" alt="p9" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_10">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p10.jpg" alt="p10" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_11">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p11.jpg" alt="p11" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_12">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p12.jpg" alt="p12" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pm_13">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <img src="./ALLimages/p13.jpg" alt="p13" class="pm_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./bootstrap-5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

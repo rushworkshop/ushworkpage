@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>製作流程</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontswesome/fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./ALLimages/logo-2.png">
+    <style>
+        body{
+            overflow-y: auto !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="fc">
+        <nav id="navigation" class="navbar navbar-expand-xl header-no col-12 position-fixed px-3">
+            <a href="./index.html" class="navbar-brand ms-3 fcc"><img src="./ALLimages/logo-2.png" alt="logo"
+                    width="64px" class="fds"><span class="fs-3 ms-3 text-dark ">藺草工坊</span></a>
+
+            <button type="button" class="navbar-toggler justify-content-center me-3" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbar">
+                <ul class="navbar-nav ms-auto gap-4">
+                    <li class="nav-item text-center"><a href="./index.html" class="nav-link text-dark">首頁<br>Home</a>
+                    </li>
+                    <li class="nav-item text-center"><a href="./about.html" class="nav-link text-dark">工坊故事<br>About</a>
+                    </li>
+                    <li class="nav-item text-center"><a href="./process.html"
+                            class="nav-link text-dark">製作流程<br>Process</a></li>
+                    <li class="nav-item text-center"><a href="./introduce.html"
+                            class="nav-link text-dark">商品介紹<br>Introduce</a>
+                    </li>
+                    <li class="nav-item text-center"><a href="./product.html"
+                            class="nav-link text-dark">購物專區<br>Product</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="news" id="news">
+        <div class="bg_n">
+            <div class="container">
+                <div class="row">
+                    <div class="display-4 text-light mb-5 col-12 Tshadow2" data-aos="fade-up" data-aos-duration="700">
+                        製作流程 <span class="display-5 ff2 fst-italic">Process</span></div>
+                    <div class="col-12 col-lg-6 accordion mb-5" id="accordion" data-aos="fade-up"
+                        data-aos-duration="900">
+                        <div class="accordion-item" onclick="changeImg(1)">
+                            <div class="accordion-header" id="p_1">
+                                <button type="button" class="accordion-button bgc-77a88d text-light"
+                                    data-bs-toggle="collapse" data-bs-target="#p_11" aria-controls="p_11"
+                                    aria-expanded="true">
+                                    <span class="c-da1717 fs-11 B">Step 1 </span>　<span class="Tshadow3">打版</span>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse show" data-bs-parent="#accordion" id="p_11"
+                                aria-labelledby="p_1">
+                                <div class="accordion-body fcc lh-lg">
+                                    <img src="./ALLimages/process_1.jpg" alt="p1" class="news_img me-3">
+                                    就是將包包每一個接片的輪廓形體描繪出來，再依照繪製出來的輪（簡稱版型）進行縫紉製作。
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" onclick="changeImg(2)">
+                            <div class="accordion-header" id="p_2">
+                                <button type="button" class="accordion-button bgc-77a88d text-light"
+                                    data-bs-toggle="collapse" data-bs-target="#p_22" aria-controls="p_22"
+                                    aria-expanded="true">
+                                    <span class="c-da1717 fs-11 B">Step 2 </span>　<span class="Tshadow3">補蓆</span>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="#accordion" id="p_22"
+                                aria-labelledby="p_2">
+                                <div class="accordion-body fcc lh-lg">
+                                    <img src="./ALLimages/process_2.jpg" alt="p2" class="news_img me-3">
+                                    檢查每一片打版後的草蓆蓆面，每一根藺草的完整度、顏色勻稱、是否平整。有瑕疵的藺草就需要人工，一根一根的更換。補草蓆是整個製作過程中，最費時費工的步驟，全憑老師們的經驗累積。
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" onclick="changeImg(3)">
+                            <div class="accordion-header" id="p_3">
+                                <button type="button" class="accordion-button bgc-77a88d text-light"
+                                    data-bs-toggle="collapse" data-bs-target="#p_33" aria-controls="p_33"
+                                    aria-expanded="true">
+                                    <span class="c-da1717 fs-11 B">Step 3 </span>　<span class="Tshadow3">翻面、塑形</span>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="#accordion" id="p_33"
+                                aria-labelledby="p_3">
+                                <div class="accordion-body fcc lh-lg">
+                                    <img src="./ALLimages/process_3.jpg" alt="p3" class="news_img me-3">
+                                    初步車縫好的包包，要泡水讓藺草軟化，才能進行翻面塑型的步驟。而翻面同樣也考驗著老師們的手藝，這過程需要膽大心細。熟練的老師們，一天最多可以翻上上百個包包。
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" onclick="changeImg(4)">
+                            <div class="accordion-header" id="p_4">
+                                <button type="button" class="accordion-button bgc-77a88d text-light"
+                                    data-bs-toggle="collapse" data-bs-target="#p_44" aria-controls="p_44"
+                                    aria-expanded="true">
+                                    <span class="c-da1717 fs-11 B">Step 4 </span>　<span class="Tshadow3">日曬</span>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="#accordion" id="p_44"
+                                aria-labelledby="p_4">
+                                <div class="accordion-body fcc lh-lg">
+                                    <img src="./ALLimages/process_4.jpg" alt="p4" class="news_img me-3">
+                                    翻面塑型好的包包，再來就要經過日曬，將浸溼的藺草曬乾，才能接著之後的處理過程。
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" onclick="changeImg(5)">
+                            <div class="accordion-header" id="p_5">
+                                <button type="button" class="accordion-button bgc-77a88d text-light"
+                                    data-bs-toggle="collapse" data-bs-target="#p_55" aria-controls="p_55"
+                                    aria-expanded="true">
+                                    <span class="c-da1717 fs-11 B">Step 5 </span>　<span class="Tshadow3">車縫</span>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="#accordion" id="p_55"
+                                aria-labelledby="p_5">
+                                <div class="accordion-body fcc lh-lg">
+                                    <img src="./ALLimages/process_5.jpg" alt="p5" class="news_img me-3">
+                                    將內裡布、提帶、皮標跟草蓆車縫起來，包包已經逐漸接近完成囉
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" onclick="changeImg(6)">
+                            <div class="accordion-header" id="p_6">
+                                <button type="button" class="accordion-button bgc-77a88d text-light"
+                                    data-bs-toggle="collapse" data-bs-target="#p_66" aria-controls="p_66"
+                                    aria-expanded="true">
+                                    <span class="c-da1717 fs-11 B">Step 6 </span>　<span class="Tshadow3">上漆</span>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="#accordion" id="p_66"
+                                aria-labelledby="p_6">
+                                <div class="accordion-body fcc lh-lg">
+                                    <img src="./ALLimages/process_6.jpg" alt="p6" class="news_img me-3">
+                                    最後一道步驟：上亮漆。
+                                    上漆可以增加藺草的硬度和保護力，這樣藺草也不會去勾傷衣服，所以當你聽到藺草包出現“咔咔咔”輕脆的聲音時，不要緊張，那不是藺草斷裂的聲音喔！
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item" onclick="changeImg(7)">
+                            <div class="accordion-header" id="p_7">
+                                <button type="button" class="accordion-button bgc-77a88d text-light"
+                                    data-bs-toggle="collapse" data-bs-target="#p_77" aria-controls="p_77"
+                                    aria-expanded="true">
+                                    <span class="c-da1717 fs-11 B">Step 7 </span>　<span class="Tshadow3">日曬</span>
+                                </button>
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="#accordion" id="p_77"
+                                aria-labelledby="p_7">
+                                <div class="accordion-body fcc lh-lg">
+                                    <img src="./ALLimages/process_7.jpg" alt="p7" class="news_img me-3">
+                                    上漆完後的藺草包，再經過最後一次日曬的程序就完成囉！
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 fcc" style="padding:0px 5% ;" data-aos="fade-up"
+                        data-aos-duration="1100">
+                        <div class="newsBigImg " id="newsBigImg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./bootstrap-5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
