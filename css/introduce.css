@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", "新細明體", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #212529;
+}
+
+/* ----------------------- */
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fc {
+    display: flex;
+    justify-content: center;
+}
+
+.ff2 {
+    font-family: "Bell Mt";
+}
+
+.tw {
+    color: #fff;
+}
+
+.Tshadow {
+    text-shadow: 2px 2px 5px #000;
+}
+
+.Tshadow2 {
+    text-shadow: 0px 0px 5px #000;
+}
+
+.Tshadow3 {
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.bgc-77a88d {
+    background-color: #77a88d !important;
+}
+
+.ls-5 {
+    letter-spacing: 5px;
+}
+
+.c-5d8da3 {
+    color: #5d8da3;
+}
+
+.c-ffd900 {
+    color: #40bb4a;
+}
+
+.c-ffce39 {
+    color: #ffce39;
+}
+
+.bgc-003775 {
+    background-color: #003775;
+}
+
+.fds {
+    filter: drop-shadow(2px 2px 4px #00000099);
+}
+
+/* --------- header ------- */
+@media (min-width:1200px) {
+    .container_1 {
+        max-width: 100%;
+    }
+}
+
+.navbar {
+    z-index: 50;
+    transition: .5s;
+}
+
+.header-no {
+    top: 0;
+    background-color: #ffffff;
+    backdrop-filter: blur(5px);
+    /* border-radius: 40px; */
+    box-shadow: 2px 2px 4px #00000099;
+}
+
+.header-before {
+    top: 0;
+}
+
+.header-after {
+    top: 0;
+    background-color: #ffffff;
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    box-shadow: 2px 2px 4px #00000099;
+}
+
+.nav_item_icon {
+    margin: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+
+/* --------- product ------- */
+.product {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../ALLimages/bg-2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 6rem 0;
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+
+.Card {
+    width: 300px;
+    padding: 20px;
+    margin: 30px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px #00000099;
+    z-index: 40;
+}
+
+.card_img {
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.c_img1 {
+    background-image: url(../ALLimages/1.jpg);
+}
+
+.c_img2 {
+    background-image: url(../ALLimages/2.jpg);
+}
+
+.c_img3 {
+    background-image: url(../ALLimages/3.jpg);
+    background-position-x: 50%;
+}
+
+.c_img4 {
+    background-image: url(../ALLimages/4.jpg);
+    background-position-y: bottom;
+}
+
+.c_img5 {
+    background-image: url(../ALLimages/5.jpg);
+}
+
+.c_img6 {
+    background-image: url(../ALLimages/6.jpg);
+}
+
+.c_img7 {
+    background-image: url(../ALLimages/7.jpg);
+}
+
+.c_img8 {
+    background-image: url(../ALLimages/8.jpg);
+}
+
+.c_img9 {
+    background-image: url(../ALLimages/9.jpg);
+    background-position-x: 50%;
+}
+
+.c_img10 {
+    background-image: url(../ALLimages/10.jpg);
+    background-position-y: bottom;
+}
+
+.c_img11 {
+    background-image: url(../ALLimages/11.jpg);
+}
+
+.c_img12 {
+    background-image: url(../ALLimages/12.jpg);
+}
+
+.c_img13 {
+    background-image: url(../ALLimages/13.jpg);
+}
+
+
+.p_btn {
+    width: 100%;
+    padding: .25rem;
+    background-color: #3b71a4;
+    border-radius: 10px;
+    border: 3px solid #3b71a4;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+    box-shadow: 2px 2px 5px #00000099;
+    transition: .3s;
+}
+
+.p_btn:hover {
+    color: #3b71a4;
+    background-color: #fff;
+    text-shadow: none;
+}
+
+
+.modal-content{
+    width: 50vw !important;
+}
+.pm_img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-yellow {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: #ffce39;
+    text-shadow: 1px 1px 4px #000;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 2px 2px 5px #00000099;
+    transition: .3s;
+}
+
+.btn-yellow:hover {
+    background-color: #00b126;
+    text-shadow: 1px 1px 4px #000;
+    color: #fff;
+}
+
+.product_div {
+    display: flex;
+    flex-wrap: wrap;
+    /* 讓卡片自動換行 */
+    justify-content: space-between;
+    /* 平均分配空間 */
+    gap: 20px;
+    /* 卡片之間的間距 */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
